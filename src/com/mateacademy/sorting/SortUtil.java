@@ -1,3 +1,5 @@
+package com.mateacademy.sorting;
+
 import java.util.Arrays;
 import java.util.Random;
 

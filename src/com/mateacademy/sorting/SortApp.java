@@ -1,3 +1,5 @@
+package com.mateacademy.sorting;
+
 public class SortApp {
     public static void main(String[] args) {
 
