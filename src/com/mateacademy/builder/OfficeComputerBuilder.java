@@ -4,21 +4,21 @@ public class OfficeComputerBuilder extends ComputerBuilder {
 
     @Override
     void buildMotherboard() {
-        computer.setMotherboard(Computer.Motherboard.MSI);
+        getComputer().setMotherboard(Computer.Motherboard.MSI);
     }
 
     @Override
     void buildProcessor() {
-        computer.setProcessor(Computer.Processor.AMD);
+        getComputer().setProcessor(Computer.Processor.AMD);
     }
 
     @Override
     void buildVideoCard() {
-        computer.setVideoCard(Computer.VideoCard.Palit);
+        getComputer().setVideoCard(Computer.VideoCard.Palit);
     }
 
     @Override
     void buildMemory() {
-        computer.setMemory(Computer.Memory.HDD);
+        getComputer().setMemory(Computer.Memory.HDD);
     }
 }

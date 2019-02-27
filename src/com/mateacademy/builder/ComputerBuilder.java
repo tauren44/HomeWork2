@@ -1,7 +1,7 @@
 package com.mateacademy.builder;
 
 public abstract class ComputerBuilder {
-    Computer computer;
+    private Computer computer;
 
     public void createComputer() {
         computer = new Computer();
