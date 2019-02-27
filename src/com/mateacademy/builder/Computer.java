@@ -6,22 +6,6 @@ public class Computer {
     private VideoCard videoCard;
     private Memory memory;
 
-    enum Motherboard {
-        ASUS, GIGABYTE, MSI
-    }
-
-    enum Processor {
-        Intel, AMD
-    }
-
-    enum VideoCard {
-        Nvidia, AMD, Palit
-    }
-
-    enum Memory {
-        SSD, HDD
-    }
-
     public void setMotherboard(Motherboard motherboard) {
         this.motherboard = motherboard;
     }
@@ -36,6 +20,22 @@ public class Computer {
 
     public void setMemory(Memory memory) {
         this.memory = memory;
+    }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
+    public Processor getProcessor() {
+        return processor;
+    }
+
+    public VideoCard getVideoCard() {
+        return videoCard;
+    }
+
+    public Memory getMemory() {
+        return memory;
     }
 
     @Override

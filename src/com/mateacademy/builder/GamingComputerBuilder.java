@@ -3,21 +3,21 @@ package com.mateacademy.builder;
 public class GamingComputerBuilder extends ComputerBuilder {
     @Override
     void buildMotherboard() {
-        getComputer().setMotherboard(Computer.Motherboard.ASUS);
+        getComputer().setMotherboard(Motherboard.ASUS);
     }
 
     @Override
     void buildProcessor() {
-        getComputer().setProcessor(Computer.Processor.Intel);
+        getComputer().setProcessor(Processor.Intel);
     }
 
     @Override
     void buildVideoCard() {
-        getComputer().setVideoCard(Computer.VideoCard.Nvidia);
+        getComputer().setVideoCard(VideoCard.Nvidia);
     }
 
     @Override
     void buildMemory() {
-        getComputer().setMemory(Computer.Memory.SSD);
+        getComputer().setMemory(Memory.SSD);
     }
 }
